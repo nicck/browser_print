@@ -27,7 +27,7 @@ module BrowserPrint
 
     def inject_log
       full_body = @response.body.join
-      full_body.sub! /<body>/, "<body>" + render
+      full_body.sub! /<body([^>]*)>/, "<body#{$1}>" + render
 
       @response["Content-Length"] = full_body.bytesize.to_s
 
