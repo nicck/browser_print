@@ -8,7 +8,7 @@ Add this line to your application's Gemfile:
 
 ``` rb
   gem 'browser_print',
-    :git =>'git://github.com/nicck/browser_print.git',
+    :git => 'git://github.com/nicck/browser_print.git',
     :group => :development
 ```
 
@@ -32,7 +32,6 @@ Also you can use `bpp` (browser print proxy) method to inspect object inside met
 
 ## TODO
 
-- tests
 - show line of sources where `bpp` called above inspect
 - ability to user `user.articles.first.bpp(&:title).comments` for inspecting only title of article instead full article object
 - better CSS for browser_print pane

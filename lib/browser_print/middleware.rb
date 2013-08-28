@@ -45,6 +45,8 @@ module BrowserPrint
         html << %{<div class="bp-object">#{object_html}</div>}
       end
 
+      objects.clear
+
       <<-HTML
       <style>
         #bp-pane {
