@@ -1,4 +1,4 @@
-# BrowserPrint
+# BrowserPrint [![Build Status](https://secure.travis-ci.org/nicck/browser_print.png)](http://travis-ci.org/nicck/browser_print)
 
 [awesome_print][ap] right in your browser
 
